@@ -1,0 +1,17 @@
+# Ignorar artefactos de compilación
+artifacts/
+First Steps/artifacts/
+build-info/
+
+# Ignorar archivos de metadatos
+*.json
+
+# Exceptuar archivo de configuración si lo necesitas
+!.prettierrc.json
+
+# Ignorar configuraciones internas de Remix
+.states/
+vm-prague/
+
+# Ignorar archivos de backup temporales
+*~
